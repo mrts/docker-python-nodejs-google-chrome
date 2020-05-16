@@ -3,7 +3,7 @@ FROM python:3
 RUN \
   apt-get update && \
   apt-get install -y apt-transport-https && \
-  curl -sL https://deb.nodesource.com/setup_10.x | bash - && \
+  curl -sL https://deb.nodesource.com/setup_12.x | bash - && \
   curl -sL https://dl.google.com/linux/linux_signing_key.pub | apt-key add - && \
   echo "deb http://dl.google.com/linux/chrome/deb/ stable main" > /etc/apt/sources.list.d/google-chrome.list && \
   apt-get update && \

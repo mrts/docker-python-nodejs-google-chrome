@@ -39,6 +39,6 @@ Test that headless Chrome works as expected:
 ## Building the Docker image
 
     docker build --tag=mrts/docker-python-nodejs-google-chrome .
-    docker tag mrts/docker-python-nodejs-google-chrome:latest mrts/docker-python-nodejs-google-chrome:v1.0
+    docker tag mrts/docker-python-nodejs-google-chrome:latest mrts/docker-python-nodejs-google-chrome:v1.1
     docker login
     docker push mrts/docker-python-nodejs-google-chrome
